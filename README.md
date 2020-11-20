@@ -2,7 +2,7 @@
 CAP 6412 : Advanced Computer Vision Spring 2020
 
 
-##Project #1
+## Project #1
 
 ResNet for the Classification on Tiny-ImageNet and SVHN Dataset
 
@@ -10,7 +10,7 @@ Various versions of Resnet 18, 34, 50, 101 in their ResNeXt, ResNet etc..
 
 
 
-##Project #2
+## Project #2
 
 Bengali AI handwritten recognition
 
@@ -20,7 +20,7 @@ https://www.kaggle.com/c/bengaliai-cv19
 
 
 
-##Project #3
+## Project #3
 
 Learning Spatio-Temporal Classification and Localization
 
