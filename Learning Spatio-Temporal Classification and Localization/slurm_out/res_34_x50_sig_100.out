@@ -1,0 +1,1226 @@
+Wed Mar 18 12:41:00 EDT 2020
+Slurm nodes: evc3
+You were assigned 1 gpu(s)
+Please run `conda env list` to see a list of all available environments. Use
+`source activate <env>` to activate the environment '<env>'. 
+
+ Started Training
+==================================================================================================
+512 1 4 4
+Copying feature extractor weights to new network...
+/lustre/fs0/home/cap6412.student14/2Assignment/res_34_sig/models/resnet.py:144: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  m.weight = nn.init.kaiming_normal(m.weight, mode='fan_out')
+/lustre/fs0/home/cap6412.student14/2Assignment/res_34_sig/models/resnet.py:231: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  m.weight = nn.init.kaiming_normal(m.weight, mode='fan_out')
+/home/cap6412.student14/my-envs/pyt/lib/python3.7/site-packages/torch/nn/_reduction.py:43: UserWarning: size_average and reduce args will be deprecated, please use reduction='none' instead.
+  warnings.warn(warning.format(ret))
+Epoch [1/300], timer: 0.0875 sec/batch.
+loss: 3.7588 , loss_c: 3.6823 , loss_l: 0.0753 , loss_con: 0.0012, lr : 0.0030
+Training Accuracy : 97 
+Training IoU : 1 
+/home/cap6412.student14/my-envs/pyt/lib/python3.7/site-packages/torch/nn/functional.py:1351: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+train_test_model_div.py:153: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  conf = F.softmax(conf)
+train_test_model_div.py:154: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  conf_flip = F.softmax(conf_flip)
+Epoch [2/300], timer: 0.0863 sec/batch.
+loss: 3.7122 , loss_c: 3.6660 , loss_l: 0.0452 , loss_con: 0.0010, lr : 0.0030
+Training Accuracy : 98 
+Training IoU : 4 
+Epoch [3/300], timer: 0.0868 sec/batch.
+loss: 3.6968 , loss_c: 3.6573 , loss_l: 0.0385 , loss_con: 0.0010, lr : 0.0030
+Training Accuracy : 99 
+Training IoU : 5 
+Epoch [4/300], timer: 0.0872 sec/batch.
+loss: 3.6920 , loss_c: 3.6522 , loss_l: 0.0388 , loss_con: 0.0010, lr : 0.0030
+Training Accuracy : 99 
+Training IoU : 5 
+Epoch [5/300], timer: 0.0863 sec/batch.
+loss: 3.6849 , loss_c: 3.6496 , loss_l: 0.0343 , loss_con: 0.0010, lr : 0.0015
+Training Accuracy : 99 
+Training IoU : 5 
+Epoch [6/300], timer: 0.0871 sec/batch.
+loss: 3.6761 , loss_c: 3.6466 , loss_l: 0.0286 , loss_con: 0.0009, lr : 0.0015
+Training Accuracy : 99 
+Training IoU : 6 
+Epoch [7/300], timer: 0.0870 sec/batch.
+loss: 3.6753 , loss_c: 3.6457 , loss_l: 0.0287 , loss_con: 0.0009, lr : 0.0015
+Training Accuracy : 99 
+Training IoU : 6 
+Epoch [8/300], timer: 0.1878 sec/batch.
+loss: 3.6733 , loss_c: 3.6446 , loss_l: 0.0278 , loss_con: 0.0009, lr : 0.0015
+Training Accuracy : 99 
+Training IoU : 6 
+Epoch [9/300], timer: 0.0891 sec/batch.
+loss: 3.6713 , loss_c: 3.6455 , loss_l: 0.0250 , loss_con: 0.0008, lr : 0.0015
+Training Accuracy : 99 
+Training IoU : 6 
+Epoch [10/300], timer: 0.0896 sec/batch.
+loss: 3.6724 , loss_c: 3.6448 , loss_l: 0.0267 , loss_con: 0.0009, lr : 0.0008
+Training Accuracy : 99 
+Training IoU : 7 
+Epoch [11/300], timer: 0.0890 sec/batch.
+loss: 3.6684 , loss_c: 3.6438 , loss_l: 0.0237 , loss_con: 0.0009, lr : 0.0008
+Training Accuracy : 99 
+Training IoU : 7 
+Epoch [12/300], timer: 0.0886 sec/batch.
+loss: 3.6655 , loss_c: 3.6438 , loss_l: 0.0208 , loss_con: 0.0009, lr : 0.0008
+Training Accuracy : 99 
+Training IoU : 7 
+Epoch [13/300], timer: 0.0886 sec/batch.
+loss: 3.6666 , loss_c: 3.6429 , loss_l: 0.0229 , loss_con: 0.0009, lr : 0.0008
+Training Accuracy : 99 
+Training IoU : 7 
+Epoch [14/300], timer: 0.0897 sec/batch.
+loss: 3.6659 , loss_c: 3.6433 , loss_l: 0.0217 , loss_con: 0.0009, lr : 0.0008
+Training Accuracy : 99 
+Training IoU : 7 
+Epoch [15/300], timer: 0.0892 sec/batch.
+loss: 3.6645 , loss_c: 3.6431 , loss_l: 0.0205 , loss_con: 0.0009, lr : 0.0004
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [16/300], timer: 0.2013 sec/batch.
+loss: 3.6642 , loss_c: 3.6432 , loss_l: 0.0202 , loss_con: 0.0008, lr : 0.0004
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [17/300], timer: 0.0896 sec/batch.
+loss: 3.6635 , loss_c: 3.6426 , loss_l: 0.0201 , loss_con: 0.0008, lr : 0.0004
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [18/300], timer: 0.0898 sec/batch.
+loss: 3.6627 , loss_c: 3.6427 , loss_l: 0.0191 , loss_con: 0.0009, lr : 0.0004
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [19/300], timer: 0.0892 sec/batch.
+loss: 3.6615 , loss_c: 3.6427 , loss_l: 0.0179 , loss_con: 0.0009, lr : 0.0004
+Training Accuracy : 99 
+Training IoU : 7 
+Epoch [20/300], timer: 0.0892 sec/batch.
+loss: 3.6626 , loss_c: 3.6425 , loss_l: 0.0193 , loss_con: 0.0008, lr : 0.0002
+Training Accuracy : 99 
+Training IoU : 7 
+Epoch [21/300], timer: 0.0885 sec/batch.
+loss: 3.6611 , loss_c: 3.6423 , loss_l: 0.0179 , loss_con: 0.0009, lr : 0.0002
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [22/300], timer: 0.0883 sec/batch.
+loss: 3.6611 , loss_c: 3.6424 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0002
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [23/300], timer: 0.0889 sec/batch.
+loss: 3.6616 , loss_c: 3.6424 , loss_l: 0.0183 , loss_con: 0.0009, lr : 0.0002
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [24/300], timer: 0.2209 sec/batch.
+loss: 3.6620 , loss_c: 3.6421 , loss_l: 0.0191 , loss_con: 0.0008, lr : 0.0002
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [25/300], timer: 0.0888 sec/batch.
+loss: 3.6615 , loss_c: 3.6426 , loss_l: 0.0181 , loss_con: 0.0008, lr : 0.0001
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [26/300], timer: 0.0897 sec/batch.
+loss: 3.6612 , loss_c: 3.6421 , loss_l: 0.0182 , loss_con: 0.0009, lr : 0.0001
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [27/300], timer: 0.0889 sec/batch.
+loss: 3.6653 , loss_c: 3.6424 , loss_l: 0.0221 , loss_con: 0.0008, lr : 0.0001
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [28/300], timer: 0.0866 sec/batch.
+loss: 3.6618 , loss_c: 3.6428 , loss_l: 0.0183 , loss_con: 0.0008, lr : 0.0001
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [29/300], timer: 0.0874 sec/batch.
+loss: 3.6607 , loss_c: 3.6423 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0001
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [30/300], timer: 0.0866 sec/batch.
+loss: 3.6627 , loss_c: 3.6423 , loss_l: 0.0196 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [31/300], timer: 0.0866 sec/batch.
+loss: 3.6606 , loss_c: 3.6420 , loss_l: 0.0177 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [32/300], timer: 0.1727 sec/batch.
+loss: 3.6599 , loss_c: 3.6422 , loss_l: 0.0168 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [33/300], timer: 0.0866 sec/batch.
+loss: 3.6600 , loss_c: 3.6424 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [34/300], timer: 0.0866 sec/batch.
+loss: 3.6608 , loss_c: 3.6425 , loss_l: 0.0174 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [35/300], timer: 0.0865 sec/batch.
+loss: 3.6604 , loss_c: 3.6423 , loss_l: 0.0173 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [36/300], timer: 0.0865 sec/batch.
+loss: 3.6600 , loss_c: 3.6420 , loss_l: 0.0172 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [37/300], timer: 0.0871 sec/batch.
+loss: 3.6617 , loss_c: 3.6424 , loss_l: 0.0185 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [38/300], timer: 0.0874 sec/batch.
+loss: 3.6612 , loss_c: 3.6428 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [39/300], timer: 0.0864 sec/batch.
+loss: 3.6605 , loss_c: 3.6422 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [40/300], timer: 0.1673 sec/batch.
+loss: 3.6610 , loss_c: 3.6422 , loss_l: 0.0179 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [41/300], timer: 0.0871 sec/batch.
+loss: 3.6606 , loss_c: 3.6423 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [42/300], timer: 0.0870 sec/batch.
+loss: 3.6599 , loss_c: 3.6425 , loss_l: 0.0166 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [43/300], timer: 0.0866 sec/batch.
+loss: 3.6628 , loss_c: 3.6423 , loss_l: 0.0196 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [44/300], timer: 0.0865 sec/batch.
+loss: 3.6609 , loss_c: 3.6424 , loss_l: 0.0176 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [45/300], timer: 0.0864 sec/batch.
+loss: 3.6617 , loss_c: 3.6422 , loss_l: 0.0187 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [46/300], timer: 0.0893 sec/batch.
+loss: 3.6609 , loss_c: 3.6423 , loss_l: 0.0177 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [47/300], timer: 0.0867 sec/batch.
+loss: 3.6604 , loss_c: 3.6427 , loss_l: 0.0169 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [48/300], timer: 0.2009 sec/batch.
+loss: 3.6606 , loss_c: 3.6421 , loss_l: 0.0177 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [49/300], timer: 0.0870 sec/batch.
+loss: 3.6635 , loss_c: 3.6419 , loss_l: 0.0208 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [50/300], timer: 0.0865 sec/batch.
+loss: 3.6610 , loss_c: 3.6427 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [51/300], timer: 0.0864 sec/batch.
+loss: 3.6593 , loss_c: 3.6422 , loss_l: 0.0163 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [52/300], timer: 0.0877 sec/batch.
+loss: 3.6609 , loss_c: 3.6423 , loss_l: 0.0178 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [53/300], timer: 0.0920 sec/batch.
+loss: 3.6604 , loss_c: 3.6423 , loss_l: 0.0172 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [54/300], timer: 0.0910 sec/batch.
+loss: 3.6602 , loss_c: 3.6424 , loss_l: 0.0169 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [55/300], timer: 0.0896 sec/batch.
+loss: 3.6605 , loss_c: 3.6421 , loss_l: 0.0176 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [56/300], timer: 0.1882 sec/batch.
+loss: 3.6599 , loss_c: 3.6422 , loss_l: 0.0168 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [57/300], timer: 0.0896 sec/batch.
+loss: 3.6608 , loss_c: 3.6422 , loss_l: 0.0178 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [58/300], timer: 0.0866 sec/batch.
+loss: 3.6637 , loss_c: 3.6423 , loss_l: 0.0206 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [59/300], timer: 0.0884 sec/batch.
+loss: 3.6639 , loss_c: 3.6425 , loss_l: 0.0205 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [60/300], timer: 0.0883 sec/batch.
+loss: 3.6607 , loss_c: 3.6423 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [61/300], timer: 0.0897 sec/batch.
+loss: 3.6596 , loss_c: 3.6420 , loss_l: 0.0167 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [62/300], timer: 0.0892 sec/batch.
+loss: 3.6605 , loss_c: 3.6422 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [63/300], timer: 0.0894 sec/batch.
+loss: 3.6611 , loss_c: 3.6424 , loss_l: 0.0179 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [64/300], timer: 0.1820 sec/batch.
+loss: 3.6605 , loss_c: 3.6423 , loss_l: 0.0173 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [65/300], timer: 0.0890 sec/batch.
+loss: 3.6629 , loss_c: 3.6421 , loss_l: 0.0200 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [66/300], timer: 0.0893 sec/batch.
+loss: 3.6609 , loss_c: 3.6426 , loss_l: 0.0174 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [67/300], timer: 0.0886 sec/batch.
+loss: 3.6607 , loss_c: 3.6423 , loss_l: 0.0176 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [68/300], timer: 0.0884 sec/batch.
+loss: 3.6607 , loss_c: 3.6423 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [69/300], timer: 0.0890 sec/batch.
+loss: 3.6667 , loss_c: 3.6429 , loss_l: 0.0230 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [70/300], timer: 0.0899 sec/batch.
+loss: 3.6654 , loss_c: 3.6425 , loss_l: 0.0220 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [71/300], timer: 0.0902 sec/batch.
+loss: 3.6592 , loss_c: 3.6421 , loss_l: 0.0163 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [72/300], timer: 0.2088 sec/batch.
+loss: 3.6596 , loss_c: 3.6420 , loss_l: 0.0167 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [73/300], timer: 0.0896 sec/batch.
+loss: 3.6643 , loss_c: 3.6422 , loss_l: 0.0212 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [74/300], timer: 0.0872 sec/batch.
+loss: 3.6605 , loss_c: 3.6423 , loss_l: 0.0174 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [75/300], timer: 0.0864 sec/batch.
+loss: 3.6626 , loss_c: 3.6421 , loss_l: 0.0196 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [76/300], timer: 0.0864 sec/batch.
+loss: 3.6607 , loss_c: 3.6427 , loss_l: 0.0171 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [77/300], timer: 0.0864 sec/batch.
+loss: 3.6620 , loss_c: 3.6424 , loss_l: 0.0188 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [78/300], timer: 0.0865 sec/batch.
+loss: 3.6601 , loss_c: 3.6425 , loss_l: 0.0167 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [79/300], timer: 0.0895 sec/batch.
+loss: 3.6604 , loss_c: 3.6419 , loss_l: 0.0177 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [80/300], timer: 0.1813 sec/batch.
+loss: 3.6610 , loss_c: 3.6426 , loss_l: 0.0176 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [81/300], timer: 0.0896 sec/batch.
+loss: 3.6609 , loss_c: 3.6424 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [82/300], timer: 0.0899 sec/batch.
+loss: 3.6604 , loss_c: 3.6422 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [83/300], timer: 0.0890 sec/batch.
+loss: 3.6745 , loss_c: 3.6422 , loss_l: 0.0315 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [84/300], timer: 0.0892 sec/batch.
+loss: 3.6629 , loss_c: 3.6422 , loss_l: 0.0199 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [85/300], timer: 0.0892 sec/batch.
+loss: 3.6608 , loss_c: 3.6425 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [86/300], timer: 0.0884 sec/batch.
+loss: 3.6604 , loss_c: 3.6419 , loss_l: 0.0177 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [87/300], timer: 0.0895 sec/batch.
+loss: 3.6603 , loss_c: 3.6421 , loss_l: 0.0174 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [88/300], timer: 0.2187 sec/batch.
+loss: 3.6611 , loss_c: 3.6422 , loss_l: 0.0180 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [89/300], timer: 0.0885 sec/batch.
+loss: 3.6598 , loss_c: 3.6421 , loss_l: 0.0169 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [90/300], timer: 0.0894 sec/batch.
+loss: 3.6598 , loss_c: 3.6423 , loss_l: 0.0167 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [91/300], timer: 0.0898 sec/batch.
+loss: 3.6596 , loss_c: 3.6426 , loss_l: 0.0161 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [92/300], timer: 0.0903 sec/batch.
+loss: 3.6603 , loss_c: 3.6418 , loss_l: 0.0176 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [93/300], timer: 0.0900 sec/batch.
+loss: 3.6600 , loss_c: 3.6423 , loss_l: 0.0169 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [94/300], timer: 0.0865 sec/batch.
+loss: 3.6654 , loss_c: 3.6427 , loss_l: 0.0219 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [95/300], timer: 0.0868 sec/batch.
+loss: 3.6613 , loss_c: 3.6428 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [96/300], timer: 0.1999 sec/batch.
+loss: 3.6638 , loss_c: 3.6421 , loss_l: 0.0209 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [97/300], timer: 0.0866 sec/batch.
+loss: 3.6605 , loss_c: 3.6429 , loss_l: 0.0167 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [98/300], timer: 0.0865 sec/batch.
+loss: 3.6604 , loss_c: 3.6424 , loss_l: 0.0172 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [99/300], timer: 0.0864 sec/batch.
+loss: 3.6606 , loss_c: 3.6420 , loss_l: 0.0177 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [100/300], timer: 0.0866 sec/batch.
+loss: 3.6595 , loss_c: 3.6419 , loss_l: 0.0168 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [101/300], timer: 0.0879 sec/batch.
+loss: 3.6654 , loss_c: 3.6422 , loss_l: 0.0223 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [102/300], timer: 0.0887 sec/batch.
+loss: 3.6598 , loss_c: 3.6423 , loss_l: 0.0166 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [103/300], timer: 0.0886 sec/batch.
+loss: 3.6603 , loss_c: 3.6424 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [104/300], timer: 0.2208 sec/batch.
+loss: 3.6612 , loss_c: 3.6424 , loss_l: 0.0179 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [105/300], timer: 0.0892 sec/batch.
+loss: 3.6597 , loss_c: 3.6420 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [106/300], timer: 0.0887 sec/batch.
+loss: 3.6597 , loss_c: 3.6423 , loss_l: 0.0166 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [107/300], timer: 0.0889 sec/batch.
+loss: 3.6596 , loss_c: 3.6422 , loss_l: 0.0166 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [108/300], timer: 0.0884 sec/batch.
+loss: 3.6600 , loss_c: 3.6421 , loss_l: 0.0171 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [109/300], timer: 0.0892 sec/batch.
+loss: 3.6596 , loss_c: 3.6419 , loss_l: 0.0169 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [110/300], timer: 0.0885 sec/batch.
+loss: 3.6610 , loss_c: 3.6426 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [111/300], timer: 0.0889 sec/batch.
+loss: 3.6616 , loss_c: 3.6423 , loss_l: 0.0184 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [112/300], timer: 0.1987 sec/batch.
+loss: 3.6607 , loss_c: 3.6423 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [113/300], timer: 0.0892 sec/batch.
+loss: 3.6605 , loss_c: 3.6421 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [114/300], timer: 0.0892 sec/batch.
+loss: 3.6611 , loss_c: 3.6428 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [115/300], timer: 0.0891 sec/batch.
+loss: 3.6609 , loss_c: 3.6426 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [116/300], timer: 0.0890 sec/batch.
+loss: 3.6598 , loss_c: 3.6422 , loss_l: 0.0167 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [117/300], timer: 0.0893 sec/batch.
+loss: 3.6602 , loss_c: 3.6423 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [118/300], timer: 0.0893 sec/batch.
+loss: 3.6620 , loss_c: 3.6419 , loss_l: 0.0192 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [119/300], timer: 0.0893 sec/batch.
+loss: 3.6597 , loss_c: 3.6421 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [120/300], timer: 0.1961 sec/batch.
+loss: 3.6613 , loss_c: 3.6423 , loss_l: 0.0181 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [121/300], timer: 0.0890 sec/batch.
+loss: 3.6608 , loss_c: 3.6421 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [122/300], timer: 0.0883 sec/batch.
+loss: 3.6602 , loss_c: 3.6425 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [123/300], timer: 0.0893 sec/batch.
+loss: 3.6638 , loss_c: 3.6422 , loss_l: 0.0207 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [124/300], timer: 0.0918 sec/batch.
+loss: 3.6608 , loss_c: 3.6423 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [125/300], timer: 0.0886 sec/batch.
+loss: 3.6597 , loss_c: 3.6420 , loss_l: 0.0168 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [126/300], timer: 0.0885 sec/batch.
+loss: 3.6605 , loss_c: 3.6422 , loss_l: 0.0175 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [127/300], timer: 0.0894 sec/batch.
+loss: 3.6609 , loss_c: 3.6425 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [128/300], timer: 0.1827 sec/batch.
+loss: 3.6612 , loss_c: 3.6424 , loss_l: 0.0180 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [129/300], timer: 0.0893 sec/batch.
+loss: 3.6600 , loss_c: 3.6420 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [130/300], timer: 0.0886 sec/batch.
+loss: 3.6594 , loss_c: 3.6420 , loss_l: 0.0165 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [131/300], timer: 0.0887 sec/batch.
+loss: 3.6611 , loss_c: 3.6423 , loss_l: 0.0179 , loss_con: 0.0008, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [132/300], timer: 0.0888 sec/batch.
+loss: 3.6604 , loss_c: 3.6423 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [133/300], timer: 0.0886 sec/batch.
+loss: 3.6613 , loss_c: 3.6428 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [134/300], timer: 0.0885 sec/batch.
+loss: 3.6604 , loss_c: 3.6419 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [135/300], timer: 0.0891 sec/batch.
+loss: 3.6608 , loss_c: 3.6423 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [136/300], timer: 0.2048 sec/batch.
+loss: 3.6646 , loss_c: 3.6420 , loss_l: 0.0217 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [137/300], timer: 0.0894 sec/batch.
+loss: 3.6599 , loss_c: 3.6419 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [138/300], timer: 0.0887 sec/batch.
+loss: 3.6600 , loss_c: 3.6424 , loss_l: 0.0167 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [139/300], timer: 0.0890 sec/batch.
+loss: 3.6614 , loss_c: 3.6422 , loss_l: 0.0183 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [140/300], timer: 0.0890 sec/batch.
+loss: 3.6607 , loss_c: 3.6427 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [141/300], timer: 0.0885 sec/batch.
+loss: 3.6610 , loss_c: 3.6427 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [142/300], timer: 0.0900 sec/batch.
+loss: 3.6627 , loss_c: 3.6425 , loss_l: 0.0194 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [143/300], timer: 0.0890 sec/batch.
+loss: 3.6707 , loss_c: 3.6424 , loss_l: 0.0274 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [144/300], timer: 0.1815 sec/batch.
+loss: 3.6608 , loss_c: 3.6426 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [145/300], timer: 0.0899 sec/batch.
+loss: 3.6608 , loss_c: 3.6424 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [146/300], timer: 0.0886 sec/batch.
+loss: 3.6613 , loss_c: 3.6422 , loss_l: 0.0183 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [147/300], timer: 0.0885 sec/batch.
+loss: 3.6600 , loss_c: 3.6425 , loss_l: 0.0166 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [148/300], timer: 0.0886 sec/batch.
+loss: 3.6630 , loss_c: 3.6422 , loss_l: 0.0199 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [149/300], timer: 0.0893 sec/batch.
+loss: 3.6609 , loss_c: 3.6422 , loss_l: 0.0179 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [150/300], timer: 0.0895 sec/batch.
+loss: 3.6611 , loss_c: 3.6428 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [151/300], timer: 0.0887 sec/batch.
+loss: 3.6597 , loss_c: 3.6421 , loss_l: 0.0167 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [152/300], timer: 0.1870 sec/batch.
+loss: 3.6605 , loss_c: 3.6423 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [153/300], timer: 0.0890 sec/batch.
+loss: 3.6608 , loss_c: 3.6424 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [154/300], timer: 0.0886 sec/batch.
+loss: 3.6604 , loss_c: 3.6420 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [155/300], timer: 0.0887 sec/batch.
+loss: 3.6602 , loss_c: 3.6421 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [156/300], timer: 0.0884 sec/batch.
+loss: 3.6606 , loss_c: 3.6421 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [157/300], timer: 0.0893 sec/batch.
+loss: 3.6599 , loss_c: 3.6424 , loss_l: 0.0167 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [158/300], timer: 0.0899 sec/batch.
+loss: 3.6608 , loss_c: 3.6426 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [159/300], timer: 0.0885 sec/batch.
+loss: 3.6603 , loss_c: 3.6421 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [160/300], timer: 0.1969 sec/batch.
+loss: 3.6598 , loss_c: 3.6424 , loss_l: 0.0165 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [161/300], timer: 0.0886 sec/batch.
+loss: 3.6610 , loss_c: 3.6423 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [162/300], timer: 0.0891 sec/batch.
+loss: 3.6608 , loss_c: 3.6424 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [163/300], timer: 0.0886 sec/batch.
+loss: 3.6604 , loss_c: 3.6423 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [164/300], timer: 0.0884 sec/batch.
+loss: 3.6603 , loss_c: 3.6423 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [165/300], timer: 0.0894 sec/batch.
+loss: 3.6625 , loss_c: 3.6421 , loss_l: 0.0195 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [166/300], timer: 0.0888 sec/batch.
+loss: 3.6610 , loss_c: 3.6425 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [167/300], timer: 0.0884 sec/batch.
+loss: 3.6612 , loss_c: 3.6424 , loss_l: 0.0179 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [168/300], timer: 0.1887 sec/batch.
+loss: 3.6603 , loss_c: 3.6423 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [169/300], timer: 0.0884 sec/batch.
+loss: 3.6593 , loss_c: 3.6420 , loss_l: 0.0165 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [170/300], timer: 0.0886 sec/batch.
+loss: 3.6603 , loss_c: 3.6424 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [171/300], timer: 0.0886 sec/batch.
+loss: 3.6608 , loss_c: 3.6425 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [172/300], timer: 0.0885 sec/batch.
+loss: 3.6652 , loss_c: 3.6420 , loss_l: 0.0223 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [173/300], timer: 0.0891 sec/batch.
+loss: 3.6598 , loss_c: 3.6421 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [174/300], timer: 0.0888 sec/batch.
+loss: 3.6601 , loss_c: 3.6425 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [175/300], timer: 0.0892 sec/batch.
+loss: 3.6599 , loss_c: 3.6423 , loss_l: 0.0167 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [176/300], timer: 0.2108 sec/batch.
+loss: 3.6596 , loss_c: 3.6419 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [177/300], timer: 0.0894 sec/batch.
+loss: 3.6627 , loss_c: 3.6420 , loss_l: 0.0198 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [178/300], timer: 0.0885 sec/batch.
+loss: 3.6607 , loss_c: 3.6421 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [179/300], timer: 0.0889 sec/batch.
+loss: 3.6601 , loss_c: 3.6423 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [180/300], timer: 0.0889 sec/batch.
+loss: 3.6609 , loss_c: 3.6423 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [181/300], timer: 0.0891 sec/batch.
+loss: 3.6626 , loss_c: 3.6426 , loss_l: 0.0192 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [182/300], timer: 0.0893 sec/batch.
+loss: 3.6611 , loss_c: 3.6423 , loss_l: 0.0179 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [183/300], timer: 0.0892 sec/batch.
+loss: 3.6603 , loss_c: 3.6420 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [184/300], timer: 0.1828 sec/batch.
+loss: 3.6595 , loss_c: 3.6422 , loss_l: 0.0164 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [185/300], timer: 0.0893 sec/batch.
+loss: 3.6601 , loss_c: 3.6422 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [186/300], timer: 0.0889 sec/batch.
+loss: 3.6613 , loss_c: 3.6427 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [187/300], timer: 0.0894 sec/batch.
+loss: 3.6596 , loss_c: 3.6424 , loss_l: 0.0162 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [188/300], timer: 0.0894 sec/batch.
+loss: 3.6600 , loss_c: 3.6423 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [189/300], timer: 0.0885 sec/batch.
+loss: 3.6624 , loss_c: 3.6423 , loss_l: 0.0192 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [190/300], timer: 0.0886 sec/batch.
+loss: 3.6606 , loss_c: 3.6423 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [191/300], timer: 0.0896 sec/batch.
+loss: 3.6605 , loss_c: 3.6424 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [192/300], timer: 0.2272 sec/batch.
+loss: 3.6599 , loss_c: 3.6419 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [193/300], timer: 0.0893 sec/batch.
+loss: 3.6604 , loss_c: 3.6425 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [194/300], timer: 0.0893 sec/batch.
+loss: 3.6612 , loss_c: 3.6424 , loss_l: 0.0179 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [195/300], timer: 0.0889 sec/batch.
+loss: 3.6599 , loss_c: 3.6425 , loss_l: 0.0165 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [196/300], timer: 0.0886 sec/batch.
+loss: 3.6666 , loss_c: 3.6422 , loss_l: 0.0235 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [197/300], timer: 0.0889 sec/batch.
+loss: 3.6594 , loss_c: 3.6419 , loss_l: 0.0166 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [198/300], timer: 0.0896 sec/batch.
+loss: 3.6684 , loss_c: 3.6422 , loss_l: 0.0253 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [199/300], timer: 0.0894 sec/batch.
+loss: 3.6605 , loss_c: 3.6423 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [200/300], timer: 0.0884 sec/batch.
+loss: 3.6610 , loss_c: 3.6428 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [201/300], timer: 0.0891 sec/batch.
+loss: 3.6612 , loss_c: 3.6426 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [202/300], timer: 0.0892 sec/batch.
+loss: 3.6602 , loss_c: 3.6423 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [203/300], timer: 0.0892 sec/batch.
+loss: 3.6600 , loss_c: 3.6423 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [204/300], timer: 0.0885 sec/batch.
+loss: 3.6625 , loss_c: 3.6423 , loss_l: 0.0194 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [205/300], timer: 0.0887 sec/batch.
+loss: 3.6599 , loss_c: 3.6419 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [206/300], timer: 0.0892 sec/batch.
+loss: 3.6594 , loss_c: 3.6421 , loss_l: 0.0164 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [207/300], timer: 0.0892 sec/batch.
+loss: 3.6607 , loss_c: 3.6426 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [208/300], timer: 0.1903 sec/batch.
+loss: 3.6606 , loss_c: 3.6424 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [209/300], timer: 0.0894 sec/batch.
+loss: 3.6602 , loss_c: 3.6419 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [210/300], timer: 0.0892 sec/batch.
+loss: 3.6668 , loss_c: 3.6426 , loss_l: 0.0232 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [211/300], timer: 0.0888 sec/batch.
+loss: 3.6604 , loss_c: 3.6425 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [212/300], timer: 0.0886 sec/batch.
+loss: 3.6594 , loss_c: 3.6422 , loss_l: 0.0163 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [213/300], timer: 0.0890 sec/batch.
+loss: 3.6594 , loss_c: 3.6421 , loss_l: 0.0164 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [214/300], timer: 0.0885 sec/batch.
+loss: 3.6598 , loss_c: 3.6416 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [215/300], timer: 0.0885 sec/batch.
+loss: 3.6612 , loss_c: 3.6419 , loss_l: 0.0185 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [216/300], timer: 0.1867 sec/batch.
+loss: 3.6611 , loss_c: 3.6425 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [217/300], timer: 0.0886 sec/batch.
+loss: 3.6601 , loss_c: 3.6425 , loss_l: 0.0167 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [218/300], timer: 0.0886 sec/batch.
+loss: 3.6603 , loss_c: 3.6421 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [219/300], timer: 0.0886 sec/batch.
+loss: 3.6610 , loss_c: 3.6423 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [220/300], timer: 0.0885 sec/batch.
+loss: 3.6602 , loss_c: 3.6424 , loss_l: 0.0169 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [221/300], timer: 0.0885 sec/batch.
+loss: 3.6607 , loss_c: 3.6425 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [222/300], timer: 0.0887 sec/batch.
+loss: 3.6592 , loss_c: 3.6420 , loss_l: 0.0163 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [223/300], timer: 0.0889 sec/batch.
+loss: 3.6611 , loss_c: 3.6423 , loss_l: 0.0179 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [224/300], timer: 0.0885 sec/batch.
+loss: 3.6584 , loss_c: 3.6420 , loss_l: 0.0155 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [225/300], timer: 0.0886 sec/batch.
+loss: 3.6597 , loss_c: 3.6420 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [226/300], timer: 0.0886 sec/batch.
+loss: 3.6603 , loss_c: 3.6424 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [227/300], timer: 0.0890 sec/batch.
+loss: 3.6607 , loss_c: 3.6424 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [228/300], timer: 0.0885 sec/batch.
+loss: 3.6607 , loss_c: 3.6422 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [229/300], timer: 0.0886 sec/batch.
+loss: 3.6653 , loss_c: 3.6423 , loss_l: 0.0220 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [230/300], timer: 0.0893 sec/batch.
+loss: 3.6605 , loss_c: 3.6424 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [231/300], timer: 0.0888 sec/batch.
+loss: 3.6603 , loss_c: 3.6423 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [232/300], timer: 0.1915 sec/batch.
+loss: 3.6609 , loss_c: 3.6425 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [233/300], timer: 0.0889 sec/batch.
+loss: 3.6605 , loss_c: 3.6422 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [234/300], timer: 0.0889 sec/batch.
+loss: 3.6598 , loss_c: 3.6421 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [235/300], timer: 0.0884 sec/batch.
+loss: 3.6703 , loss_c: 3.6426 , loss_l: 0.0268 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [236/300], timer: 0.0892 sec/batch.
+loss: 3.6614 , loss_c: 3.6427 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [237/300], timer: 0.0893 sec/batch.
+loss: 3.6632 , loss_c: 3.6423 , loss_l: 0.0200 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [238/300], timer: 0.0892 sec/batch.
+loss: 3.6601 , loss_c: 3.6422 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [239/300], timer: 0.0884 sec/batch.
+loss: 3.6609 , loss_c: 3.6423 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [240/300], timer: 0.0892 sec/batch.
+loss: 3.6609 , loss_c: 3.6425 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [241/300], timer: 0.0892 sec/batch.
+loss: 3.6605 , loss_c: 3.6422 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [242/300], timer: 0.0891 sec/batch.
+loss: 3.6605 , loss_c: 3.6428 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [243/300], timer: 0.0890 sec/batch.
+loss: 3.6606 , loss_c: 3.6423 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [244/300], timer: 0.0891 sec/batch.
+loss: 3.6605 , loss_c: 3.6424 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [245/300], timer: 0.0893 sec/batch.
+loss: 3.6589 , loss_c: 3.6419 , loss_l: 0.0161 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [246/300], timer: 0.0893 sec/batch.
+loss: 3.6602 , loss_c: 3.6419 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [247/300], timer: 0.0885 sec/batch.
+loss: 3.6610 , loss_c: 3.6425 , loss_l: 0.0176 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [248/300], timer: 0.0893 sec/batch.
+loss: 3.6603 , loss_c: 3.6420 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [249/300], timer: 0.0892 sec/batch.
+loss: 3.6630 , loss_c: 3.6425 , loss_l: 0.0197 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [250/300], timer: 0.0887 sec/batch.
+loss: 3.6605 , loss_c: 3.6425 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [251/300], timer: 0.0887 sec/batch.
+loss: 3.6606 , loss_c: 3.6424 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [252/300], timer: 0.0893 sec/batch.
+loss: 3.6605 , loss_c: 3.6426 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [253/300], timer: 0.0891 sec/batch.
+loss: 3.6609 , loss_c: 3.6426 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [254/300], timer: 0.0893 sec/batch.
+loss: 3.6595 , loss_c: 3.6424 , loss_l: 0.0162 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [255/300], timer: 0.0891 sec/batch.
+loss: 3.6594 , loss_c: 3.6420 , loss_l: 0.0165 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [256/300], timer: 0.0927 sec/batch.
+loss: 3.6607 , loss_c: 3.6423 , loss_l: 0.0175 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [257/300], timer: 0.0885 sec/batch.
+loss: 3.6601 , loss_c: 3.6429 , loss_l: 0.0164 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [258/300], timer: 0.0887 sec/batch.
+loss: 3.6608 , loss_c: 3.6420 , loss_l: 0.0180 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [259/300], timer: 0.0891 sec/batch.
+loss: 3.6611 , loss_c: 3.6424 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [260/300], timer: 0.0888 sec/batch.
+loss: 3.6602 , loss_c: 3.6427 , loss_l: 0.0166 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [261/300], timer: 0.0885 sec/batch.
+loss: 3.6611 , loss_c: 3.6424 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [262/300], timer: 0.0885 sec/batch.
+loss: 3.6613 , loss_c: 3.6425 , loss_l: 0.0180 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [263/300], timer: 0.0887 sec/batch.
+loss: 3.6624 , loss_c: 3.6424 , loss_l: 0.0190 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [264/300], timer: 0.0886 sec/batch.
+loss: 3.6628 , loss_c: 3.6426 , loss_l: 0.0193 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [265/300], timer: 0.0885 sec/batch.
+loss: 3.6597 , loss_c: 3.6424 , loss_l: 0.0164 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [266/300], timer: 0.0891 sec/batch.
+loss: 3.6595 , loss_c: 3.6419 , loss_l: 0.0167 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [267/300], timer: 0.0891 sec/batch.
+loss: 3.6604 , loss_c: 3.6423 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [268/300], timer: 0.0864 sec/batch.
+loss: 3.6626 , loss_c: 3.6422 , loss_l: 0.0195 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [269/300], timer: 0.0867 sec/batch.
+loss: 3.6608 , loss_c: 3.6422 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [270/300], timer: 0.0865 sec/batch.
+loss: 3.6691 , loss_c: 3.6423 , loss_l: 0.0259 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [271/300], timer: 0.0864 sec/batch.
+loss: 3.6609 , loss_c: 3.6423 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [272/300], timer: 0.1915 sec/batch.
+loss: 3.6593 , loss_c: 3.6419 , loss_l: 0.0165 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [273/300], timer: 0.0874 sec/batch.
+loss: 3.6598 , loss_c: 3.6421 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [274/300], timer: 0.0872 sec/batch.
+loss: 3.6716 , loss_c: 3.6422 , loss_l: 0.0285 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [275/300], timer: 0.0864 sec/batch.
+loss: 3.6612 , loss_c: 3.6424 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [276/300], timer: 0.0874 sec/batch.
+loss: 3.6601 , loss_c: 3.6425 , loss_l: 0.0167 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [277/300], timer: 0.0865 sec/batch.
+loss: 3.6599 , loss_c: 3.6423 , loss_l: 0.0167 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [278/300], timer: 0.0866 sec/batch.
+loss: 3.6605 , loss_c: 3.6423 , loss_l: 0.0173 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [279/300], timer: 0.0872 sec/batch.
+loss: 3.6597 , loss_c: 3.6419 , loss_l: 0.0169 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [280/300], timer: 0.0869 sec/batch.
+loss: 3.6633 , loss_c: 3.6424 , loss_l: 0.0200 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [281/300], timer: 0.0865 sec/batch.
+loss: 3.6611 , loss_c: 3.6425 , loss_l: 0.0177 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [282/300], timer: 0.0865 sec/batch.
+loss: 3.6601 , loss_c: 3.6423 , loss_l: 0.0169 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [283/300], timer: 0.0864 sec/batch.
+loss: 3.6602 , loss_c: 3.6423 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [284/300], timer: 0.0868 sec/batch.
+loss: 3.6604 , loss_c: 3.6421 , loss_l: 0.0174 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [285/300], timer: 0.0872 sec/batch.
+loss: 3.6612 , loss_c: 3.6426 , loss_l: 0.0178 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [286/300], timer: 0.0864 sec/batch.
+loss: 3.6636 , loss_c: 3.6421 , loss_l: 0.0206 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [287/300], timer: 0.0872 sec/batch.
+loss: 3.6604 , loss_c: 3.6423 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [288/300], timer: 0.0899 sec/batch.
+loss: 3.6602 , loss_c: 3.6425 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [289/300], timer: 0.0872 sec/batch.
+loss: 3.6596 , loss_c: 3.6424 , loss_l: 0.0163 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [290/300], timer: 0.0869 sec/batch.
+loss: 3.6649 , loss_c: 3.6422 , loss_l: 0.0218 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [291/300], timer: 0.0865 sec/batch.
+loss: 3.6611 , loss_c: 3.6423 , loss_l: 0.0179 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [292/300], timer: 0.0867 sec/batch.
+loss: 3.6595 , loss_c: 3.6421 , loss_l: 0.0165 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [293/300], timer: 0.0870 sec/batch.
+loss: 3.6603 , loss_c: 3.6424 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [294/300], timer: 0.0870 sec/batch.
+loss: 3.6600 , loss_c: 3.6426 , loss_l: 0.0164 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [295/300], timer: 0.0868 sec/batch.
+loss: 3.6606 , loss_c: 3.6426 , loss_l: 0.0171 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [296/300], timer: 0.1976 sec/batch.
+loss: 3.6606 , loss_c: 3.6426 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [297/300], timer: 0.0871 sec/batch.
+loss: 3.6605 , loss_c: 3.6426 , loss_l: 0.0170 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [298/300], timer: 0.0867 sec/batch.
+loss: 3.6597 , loss_c: 3.6420 , loss_l: 0.0168 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 9 
+Epoch [299/300], timer: 0.0871 sec/batch.
+loss: 3.6606 , loss_c: 3.6424 , loss_l: 0.0172 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+Epoch [300/300], timer: 0.0864 sec/batch.
+loss: 3.6600 , loss_c: 3.6421 , loss_l: 0.0169 , loss_con: 0.0009, lr : 0.0000
+Training Accuracy : 99 
+Training IoU : 8 
+==================================================================================================
+Training Complete
+Ending script...
+Fri Mar 20 07:39:05 EDT 2020

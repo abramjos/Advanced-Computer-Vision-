@@ -1,0 +1,32 @@
+# to create the enviornment use 
+
+Conda dependencies
+'conda env create -f environment.yml'
+
+
+Pip Installation of requried packages
+'pip install requirements.txt'
+
+
+# for training the model
+
+Make sure that the flag is as follows for training use the following command:
+
+   'python train_test_model.py --test_flag False' 
+
+--num_workers     Number of workers for loading dataloader | default 8 
+--cuda            Cuda or No-Cuda
+--num_epochs      Number of epochs for training the model | default 100 
+--learning_rate   Learning rate | default 0.003 
+--batchSize       BatchSize
+--save_folder     Folder for saving folder
+--test_flag       For training and testing. For testing using True | default False
+
+
+# for testing the model use the command
+
+Change the 'pertained_weights' filename in train_test_model.py
+
+    'python train_test_model.py --test_flag True' 
+
+
